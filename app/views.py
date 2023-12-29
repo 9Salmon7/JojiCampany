@@ -21,6 +21,6 @@ class ContactView(TemplateView):
 	template_name = "Contact.html"
 
 
-class IndexView(View):
+class IndexView(TemplateView):
     def get(self, request, *args, **kwargs):
         return render(request, "app/index.html")
