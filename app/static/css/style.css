@@ -2,3 +2,9 @@
     text-align: center;
     color: rgb(0, 170, 255);
   }
+
+.container{
+  width: 90%;
+  max-width: 1120px;
+  background-color: green;
+}
